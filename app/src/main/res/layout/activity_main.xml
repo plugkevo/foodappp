@@ -56,6 +56,9 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:text="second activity"
+        android:onClick="@activity_main2.xml"
         android:layout_width="133dp"
         android:layout_height="44dp"
         android:background="@drawable/white_button"
