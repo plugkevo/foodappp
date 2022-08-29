@@ -5,26 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    android:background="@drawable/background_intro"
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="797dp"
-        android:layout_height="360dp"
+        android:layout_width="291dp"
+        android:layout_height="183dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/burger" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="315dp"
-        android:layout_height="177dp"
-        android:onClick="@activity_main.xml"
-        android:text="first activity"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        android:id="@+id/button_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="#fff"
+        android:background="#3d33a8"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
